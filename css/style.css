@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 10px;
+}
+.logo{
+	width: 50%;
+	text-align: left;
+	margin: 20px 0px 0px;
+}
+.logo img{
+	width: 120px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.logo h4{
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+	color: red;
+}
+.logo p{
+	margin-left: 30px;
+	color: red;
+}
+
+.nav{
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+.nav ul{
+	display: flex;
+	justify-content: flex-end;
+	background-color: cornflowerblue;
+	padding: 20px 0;
+}
+.nav ul li{
+	list-style: none;
+	margin: 0 80px;
+}
+.nav ul li a{
+	color: #333;
+	text-decoration: none;
+}
+
+.top{
+	width: 100%;
+	text-align: left;
+	margin: 20px 0;
+}
+.top img{
+	width: 200px;
+	height: 50px;
+}
+
+.ta{
+	margin: auto;
+	background: url(../img/book.png)repeat center center fixed;
+	background-size: 90%;
+}
+
+.ta h2{
+	color: red;
+}
+
+.down{
+	background: url(../img/book-down.png)repeat center center fixed;
+	background-size: 90%;
+}
+
+.up{
+	background: url(../img/book-up.png)repeat center center fixed;
+	background-size: 90%;
+}
+
+
+
+body,input,button,select,textarea
+{
+    font:12px/1.5 Tahoma,'Hiragino Sans GB','WenQuanYi Micro Hei','Microsoft Yahei',sans-serif;
+    color:#444;
+}
+a
+{
+    color:#333;
+    text-decoration:none;
+    -webkit-transition:all 0.2s ease;transition:all 0.2s ease;
+}
+a:hover
+{
+    text-decoration:underline;
+    color:#5CAAEF
+}
+a img
+{
+    border:none;
+}
+label
+{
+    cursor:pointer;
+}
+.z
+{
+    float:left;
+}
+.y
+{
+    float:right;
+}
+#toptb{
+	margin-top: -20px;
+    min-width:1130px;
+    border:0;
+    background:url(../img/top_bg.png);
+    background-size:85px;
+    line-height:47px;
+    position:fixed;
+    width:100%;
+    z-index:200;
+    box-shadow:1px 1px 5px 1px #00000085;
+}
+#toptb a{height:40px;}
+#toptb a.showmenu{padding-right:0px;background:none}
+#toptb .light a{padding:0 10px;height:47px;color:#fff;float:inherit;}
+#toptb .light a:hover
+{
+    background:rgba(255,255,255,0.8) center bottom no-repeat;
+    background-size:100% 37px;color:#70ba5e;
+    text-decoration:none;
+    transition-duration:.3s;
+}
+#toptb a.hover
+{
+    background-color:#FFF;
+}
+#toptb .pipe{float:left;display:none;}
+#toptb #diy-tg_menu{margin:-7px 0 0 -17px;}
+
+.left{
+	width: 60%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+.right{
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+.modfist{
+	height: 40px;
+	background-color: #EE0000;
+}
+
+.mod{
+	margin-top: 20px;
+}
+
+.modmid{
+	width: 50%;
+	float: left;
+}
+
+.ltip{
+	width: 100%;
+	height: 10%;
+	position: relative;
+}
+
+.ltip p{
+	position: absolute;
+	color: red;
+	left: 20%;
+	top: 20%;
+}
+
+.information{
+	width: 100%;
+	height: 30%;
+	position: relative;
+}
+
+.information p{
+	position: absolute;
+	left: 10%;
+	top: 10%;
+}
+
+.information pre{
+	position: absolute;
+	top: 5px;
+}
+
+.p1{margin-left: 30%;}
+.p2{margin-left: 30%;margin-top: 5%;}
+.p3{margin-left: 30%;margin-top: 10%;}
+.p4{margin-left: -5%;margin-top: 20%;}
+.p5{margin-left: -5%;margin-top: 35%;}
+.p6{margin-left: 50%;margin-top: 60%;}
+.p7{margin-left: -5%;}
+.p8{margin-left: -5%;margin-top: 5%;}
+.p9{margin-left: -5%;margin-top: 10%;}
+
+.update{
+	width: 100%;
+	height: 10%;
+	position: relative;
+}
+
+.news{
+	height: 40px;
+	width: 70%;
+	background-color: #EE0000;
+	margin-top: 10%;
+}
+
+

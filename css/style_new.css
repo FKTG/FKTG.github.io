@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.ta{
+	margin: auto;
+	background: url(../img/book.png)repeat center center fixed;
+	background-size: 59%;
+}
+
+.ta h2{
+	color: blue;
+}
+
+.ta h4{
+	color: red;
+}
+
+.down{
+	background: url(../img/book-down.png)repeat center center fixed;
+	background-size: 59%;
+	
+}
+
+.up{
+	/*background: url(../img/book-up.png)repeat center center fixed;*/
+	background-position: center;
+	background-size: 99%;
+}
+
